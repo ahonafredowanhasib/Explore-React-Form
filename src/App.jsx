@@ -2,7 +2,9 @@ import './App.css'
 import ControlField from './Components/ControlField'
 import FormAction from './Components/FormAction'
 import SimpleForm from './Components/SimpleForm'
+import UncontrolledCustomHook from './Components/UncontrolledCustomHook'
 import Uncrontrolledfield from './Components/Uncrontrolledfield'
+import HooksForm from './Hooks Components/HooksForm'
 
 function App() {
 
@@ -15,7 +17,9 @@ function App() {
       {/* <br /><br /> */}
       {/* <ControlField></ControlField> */}
       {/* <br /><br /> */}
-      <Uncrontrolledfield></Uncrontrolledfield>
+      {/* <Uncrontrolledfield></Uncrontrolledfield> */}
+      {/* <UncontrolledCustomHook></UncontrolledCustomHook> */}
+      <HooksForm></HooksForm>
     </>
   )
 }

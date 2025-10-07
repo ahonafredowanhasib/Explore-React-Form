@@ -12,7 +12,7 @@ const Uncrontrolledfield = () => {
         const email = emailRef.current.value
         const password = passwordRef.current.value
 
-        console.log('Emai: '+ email,' Password: '+ password)
+        console.log('Email: '+ email,' Password: '+ password)
     }
 
 
