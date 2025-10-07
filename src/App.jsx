@@ -2,6 +2,7 @@ import './App.css'
 import ControlField from './Components/ControlField'
 import FormAction from './Components/FormAction'
 import SimpleForm from './Components/SimpleForm'
+import Uncrontrolledfield from './Components/Uncrontrolledfield'
 
 function App() {
 
@@ -12,7 +13,9 @@ function App() {
       <br /><br />
       <FormAction></FormAction> */}
       {/* <br /><br /> */}
-      <ControlField></ControlField>
+      {/* <ControlField></ControlField> */}
+      {/* <br /><br /> */}
+      <Uncrontrolledfield></Uncrontrolledfield>
     </>
   )
 }
